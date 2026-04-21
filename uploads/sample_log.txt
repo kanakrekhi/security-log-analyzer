@@ -1,0 +1,14 @@
+Apr 21 10:01:12 server sshd[1234]: Failed password for invalid user admin from 192.168.1.10 port 22 ssh2
+Apr 21 10:01:20 server sshd[1235]: Failed password for invalid user root from 192.168.1.10 port 22 ssh2
+Apr 21 10:01:30 server sshd[1236]: Failed password for invalid user test from 192.168.1.10 port 22 ssh2
+Apr 21 10:02:10 server sshd[1237]: Failed password for invalid user guest from 192.168.1.20 port 22 ssh2
+Apr 21 10:02:30 server sshd[1238]: Failed password for invalid user admin from 192.168.1.20 port 22 ssh2
+Apr 21 10:03:00 server sshd[1239]: Accepted password for user1 from 192.168.1.30 port 22 ssh2
+Apr 21 10:03:30 server sshd[1240]: Failed password for invalid user admin from 10.0.0.5 port 22 ssh2
+Apr 21 10:03:50 server sshd[1241]: Failed password for invalid user admin from 10.0.0.5 port 22 ssh2
+Apr 21 10:04:10 server sshd[1242]: Failed password for invalid user admin from 10.0.0.5 port 22 ssh2
+Apr 21 10:04:30 server sshd[1243]: Failed password for invalid user admin from 10.0.0.5 port 22 ssh2
+Apr 21 10:05:00 server sshd[1244]: Failed password for invalid user admin from 172.16.0.2 port 22 ssh2
+Apr 21 10:05:20 server sshd[1245]: Accepted password for user2 from 172.16.0.3 port 22 ssh2
+Apr 21 10:05:40 server sshd[1246]: Failed password for invalid user test from 172.16.0.2 port 22 ssh2
+Apr 21 10:06:00 server sshd[1247]: Failed password for invalid user test from 172.16.0.2 port 22 ssh2

@@ -1,0 +1,120 @@
+/* 🌌 Animated Cyber Background */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #000000);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    color: #ffffff !important;
+}
+
+/* Background animation */
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* 🧠 Neon Heading */
+h1 {
+    font-weight: bold !important;
+    text-align: center;
+    color: #00ffe5 !important;
+    text-shadow: 0 0 10px #00ffe5, 0 0 25px #00ffe5;
+}
+
+/* 📦 Glass Card (Form Container) */
+form {
+    background: rgba(255, 255, 255, 0.05) !important;
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 20px rgba(0, 255, 229, 0.2);
+    transition: 0.3s;
+}
+
+form:hover {
+    box-shadow: 0 0 35px rgba(0, 255, 229, 0.5);
+}
+
+/* 📁 File Input */
+input[type="file"] {
+    border-radius: 10px !important;
+    border: 1px solid #00ffe5 !important;
+    padding: 10px;
+    background: transparent !important;
+    color: #fff !important;
+}
+
+/* 🔘 Button Override Bootstrap */
+button,
+.btn {
+    border-radius: 25px !important;
+    padding: 10px 25px !important;
+    background: transparent !important;
+    border: 2px solid #00ffe5 !important;
+    color: #00ffe5 !important;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover,
+.btn:hover {
+    background: #00ffe5 !important;
+    color: #000 !important;
+    box-shadow: 0 0 15px #00ffe5;
+}
+
+/* 📊 Table */
+table {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Override Bootstrap table */
+.table {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+/* Table row hover */
+.table tr:hover {
+    background-color: rgba(0, 255, 229, 0.1) !important;
+}
+
+/* Table header */
+th {
+    color: #00ffe5 !important;
+}
+
+/* 🚨 Risk Indicators */
+.high-risk {
+    color: red !important;
+    font-weight: bold;
+    text-shadow: 0 0 10px red;
+}
+
+.medium-risk {
+    color: yellow !important;
+}
+
+/* 📈 Chart Styling */
+canvas {
+    margin-top: 30px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,255,229,0.2);
+}
+
+/* 💻 Smooth Fade */
+.container {
+    animation: fadeIn 1.2s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
